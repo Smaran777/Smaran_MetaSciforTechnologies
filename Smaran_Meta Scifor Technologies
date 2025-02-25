@@ -1,0 +1,639 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOY3WLQPsFeu3mZxxuBR/R8",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Smaran777/Smaran_MetaSciforTechnologies/blob/main/Smaran_Meta%20Scifor%20Technologies\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "1.Write a Python program that prints \"Hello, World!\" to the console\n"
+      ],
+      "metadata": {
+        "id": "tcH9poXA0tKg"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Hello,World\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8aaV5VYt0xKy",
+        "outputId": "86870325-d508-47ac-889f-f6d9880ae1a4"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello,World\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "2. Variables and Types\n",
+        "Declare a variable x with the value 10. Assign another variable y with the string \"Python\". Print both values along with their types.\n"
+      ],
+      "metadata": {
+        "id": "wEksQlto1GkS"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 10\n",
+        "y = \"Python\"\n",
+        "\n",
+        "print(\"Value of x:\",x)\n",
+        "print(\"Value of y:\",y)\n",
+        "print(\"Type of x:\",type(x))\n",
+        "print(\"Type of y:\", type(y))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5zmtcMgu1MVS",
+        "outputId": "d9b91666-56fe-4e6d-94a7-03d638020467"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Value of x: 10\n",
+            "Value of y: Python\n",
+            "Type of x: <class 'int'>\n",
+            "Type of y: <class 'str'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "3. Lists\n",
+        "Create a list of five numbers. Write a Python program to find the sum and average of all numbers in the list.\n"
+      ],
+      "metadata": {
+        "id": "Ee9O4rvA2OGd"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Define the list of money\n",
+        "money = [10, 20, 30, 40, 50]\n",
+        "total_money = sum(money)\n",
+        "average_money = total_money\n",
+        "print(\"Total money:\", total_money)\n",
+        "print(\"Average money:\", average_money)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HmqDzz9v2jP7",
+        "outputId": "714fc177-ab0c-46b4-fc47-e92264142739"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Total money: 150\n",
+            "Average money: 150\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "4. Basic Operators\n",
+        "Write a Python program that takes two numbers as input and prints their sum, difference, product, and quotient.\n"
+      ],
+      "metadata": {
+        "id": "AGFid1Qb3Y1c"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "priya_money = 15\n",
+        "kevin_money = 20\n",
+        "total_money = priya_money + kevin_money\n",
+        "difference = kevin_money - priya_money\n",
+        "average_money = total_money\n",
+        "\n",
+        "print(\"Priya and Kevin's money together: ₹\", total_money)\n",
+        "print(\"Kevin's money minus Priya's money: ₹\", difference)\n",
+        "print(\"Total money: ₹\", total_money)\n",
+        "print(\"Average money: ₹\", average_money)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eVxiq3_13b2b",
+        "outputId": "d7cfdb62-608f-414c-c88f-3f0286f0b3c3"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Priya and Kevin's money together: ₹ 35\n",
+            "Kevin's money minus Priya's money: ₹ 5\n",
+            "Total money: ₹ 35\n",
+            "Average money: ₹ 35\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "5. String Formatting\n",
+        "Given name = \"Alice\" and age = 25, use different string formatting techniques (%, .format(), and f-strings) to print \"Alice is 25 years old.\""
+      ],
+      "metadata": {
+        "id": "YkJRE71K5vFj"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "\n",
+        "name = \"Smaran\"\n",
+        "age = 25\n",
+        "print(\"{} is {} years old.\".format(name, age))\n",
+        "\n",
+        "\n",
+        "name = \"Smaran\"\n",
+        "age = 25\n",
+        "print(f\"{name} is {age} years old.\")\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3DUba0xD6uW7",
+        "outputId": "5770ed47-ba08-4c2b-a8ab-ca403e9809d5"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Smaran is 25 years old.\n",
+            "Smaran is 25 years old.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "6. Basic String Operations\n",
+        "Write a Python program that takes a string as input and:\n",
+        "Converts it to uppercase and lowercase.\n",
+        "Counts the number of vowels in the string.\n",
+        "Reverses the string.\n"
+      ],
+      "metadata": {
+        "id": "TvpGvcTD7mdM"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "sentence = \"Hello World\"\n",
+        "\n",
+        "uppercase = sentence.upper()\n",
+        "print(\"Uppercase:\", uppercase)\n",
+        "\n",
+        "\n",
+        "lowercase = sentence.lower()\n",
+        "print(\"Lowercase:\", lowercase)\n",
+        "\n",
+        "\n",
+        "vowels = \"aeiouAEIOU\"\n",
+        "count = 0\n",
+        "for char in sentence:\n",
+        "    if char in vowels:\n",
+        "        count += 1\n",
+        "print(\"Number of vowels:\", count)\n",
+        "\n",
+        "reverse = sentence[::-1]\n",
+        "print(\"Reversed sentence:\",reverse)\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5pck7s3j7pXy",
+        "outputId": "c72b381d-38d5-44ac-9839-cee37edb6608"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Uppercase: HELLO WORLD\n",
+            "Lowercase: hello world\n",
+            "Number of vowels: 3\n",
+            "Reversed sentence: dlroW olleH\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "7. Conditions\n",
+        "Write a Python program that takes a number as input and checks whether it is even or odd.\n"
+      ],
+      "metadata": {
+        "id": "5XstQm8x8hZT"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "number = 7\n",
+        "\n",
+        "if number % 2 == 0:\n",
+        "  print(\"The number is even.\")\n",
+        "else:\n",
+        "  print(\"The number is odd.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "P7BnrIcs8rLr",
+        "outputId": "2d1f7c33-dd53-46cd-cdfb-91d3add6741b"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The number is odd.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "8. Loops\n",
+        "Write a Python program that prints all prime numbers between 1 and 50.\n"
+      ],
+      "metadata": {
+        "id": "2YGtJgpk9HML"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "for number in range(1, 51):\n",
+        "\n",
+        "  is_prime = True\n",
+        "\n",
+        "  if number < 2:\n",
+        "    is_prime = False\n",
+        "\n",
+        "\n",
+        "  for i in range(2, int(number ** 0.5) + 1):\n",
+        "    if number % i == 0:\n",
+        "\n",
+        "      is_prime = False\n",
+        "      break\n",
+        "\n",
+        "\n",
+        "  if is_prime:\n",
+        "    print(number)\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ynWN_3rJ9J17",
+        "outputId": "7fcc5794-1af8-4690-e5d6-35bf0f88ff1f"
+      },
+      "execution_count": 28,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2\n",
+            "3\n",
+            "5\n",
+            "7\n",
+            "11\n",
+            "13\n",
+            "17\n",
+            "19\n",
+            "23\n",
+            "29\n",
+            "31\n",
+            "37\n",
+            "41\n",
+            "43\n",
+            "47\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "9. Functions\n",
+        "Write a function factorial(n) that returns the factorial of a given number n.\n"
+      ],
+      "metadata": {
+        "id": "ARoalNQf9650"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def factorial(n):\n",
+        "\n",
+        "  result = 1\n",
+        "\n",
+        "  for i in range(1, n + 1):\n",
+        "    result *= i\n",
+        "\n",
+        "  return result\n",
+        "\n",
+        "print(factorial(8))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "99W738eE99fL",
+        "outputId": "3eabdc5a-d348-4ca0-e207-231c5756b4d3"
+      },
+      "execution_count": 29,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "40320\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "10. Classes and Objects\n",
+        "Create a Car class with attributes brand, model, and year. Define a method display_info() that prints car details. Instantiate an object and call the method.\n"
+      ],
+      "metadata": {
+        "id": "qlWb2Lt2-Ri8"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "class Car:\n",
+        "\n",
+        "  def __init__(self, brand, model, year):\n",
+        "    self.brand = brand\n",
+        "    self.model = model\n",
+        "    self.year = year\n",
+        "\n",
+        "\n",
+        "  def display_info(self):\n",
+        "    print(f\"Brand: {self.brand}\")\n",
+        "    print(f\"Model: {self.model}\")\n",
+        "    print(f\"Year: {self.year}\")\n",
+        "\n",
+        "\n",
+        "my_car = Car(\"BMW\", \"Latest Model\", 2025)\n",
+        "\n",
+        "\n",
+        "my_car.display_info()\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5Jeudyje-yH7",
+        "outputId": "71494529-fac0-4f8d-9a68-4fa6b9452f82"
+      },
+      "execution_count": 30,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Brand: BMW\n",
+            "Model: Latest Model\n",
+            "Year: 2025\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "11. Dictionaries\n",
+        "Create a dictionary containing three students' names as keys and their scores as values. Write a program to:\n",
+        "Print all keys and values.\n",
+        "Find the highest score.\n"
+      ],
+      "metadata": {
+        "id": "UsCrL3Rc-8Aj"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "students = {\n",
+        "  \"Kevin\": 85,\n",
+        "  \"Smaran\": 92,\n",
+        "  \"Divya\": 78\n",
+        "}\n",
+        "\n",
+        "\n",
+        "print(\"Students and Scores:\")\n",
+        "for student, score in students.items():\n",
+        "  print(f\"{student}: {score}\")\n",
+        "\n",
+        "highest_score = max(students.values())\n",
+        "print(f\"\\nThe highest score is: {highest_score}\")\n",
+        "\n",
+        "for student, score in students.items():\n",
+        "  if score == highest_score:\n",
+        "    print(f\"The student with the highest score is: {student}\")\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kCiWRJNi--fz",
+        "outputId": "d208ca72-c028-443b-cc8b-6df12fafeac5"
+      },
+      "execution_count": 31,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Students and Scores:\n",
+            "Kevin: 85\n",
+            "Smaran: 92\n",
+            "Divya: 78\n",
+            "\n",
+            "The highest score is: 92\n",
+            "The student with the highest score is: Smaran\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "12. Modules and Packages\n",
+        "Write a Python program that imports the math module and calculates the square root and factorial of a given numbe"
+      ],
+      "metadata": {
+        "id": "eMM_ysJH__ML"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "import math\n",
+        "\n",
+        "\n",
+        "number = int(input(\"Enter a number: \"))\n",
+        "\n",
+        "square_root = math.sqrt(number)\n",
+        "\n",
+        "\n",
+        "factorial = math.factorial(number)\n",
+        "\n",
+        "\n",
+        "print(f\"The square root of {number} is: {square_root}\")\n",
+        "print(f\"The factorial of {number} is: {factorial}\")\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9J4992CrAADb",
+        "outputId": "112559ce-bee7-4d34-daea-0607f6f5c37f"
+      },
+      "execution_count": 32,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: 15\n",
+            "The square root of 15 is: 3.872983346207417\n",
+            "The factorial of 15 is: 1307674368000\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "13. Input and Output\n",
+        "Write a Python program that asks the user for their name and age, then prints a message saying \"Hello [name], you are [age] years old!\".\n"
+      ],
+      "metadata": {
+        "id": "9pzVEgtYAPXz"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "name = \"Smaran\"\n",
+        "\n",
+        "age = 24\n",
+        "\n",
+        "print(f\"Hello {name}, you are {age} years old!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "v-N4t-vKARs7",
+        "outputId": "f2527764-b146-4a7c-86d9-ee8c8858fdad"
+      },
+      "execution_count": 39,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello Smaran, you are 24 years old!\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
